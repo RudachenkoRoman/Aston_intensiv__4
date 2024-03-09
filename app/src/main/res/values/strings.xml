@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Aston_intensiv__4</string>
+    <string name="fragment_a">Fragment A</string>
+    <string name="open_fragment_b">Open fragment B</string>
+    <string name="fragment_b">Fragment B</string>
+    <string name="back">Back</string>
+    <string name="fragment_c">Fragment C</string>
+    <string name="open_fragment_c">Open fragment C</string>
+    <string name="open_fragment_d">Open fragment D</string>
+    <string name="back_to_fragment_a">Back to fragment A</string>
+    <string name="fragment_d">Fragment D</string>
+    <string name="back_to_fragment_b">Back to fragment B</string>
+    <string name="home_work_one">Home work one</string>
+    <string name="home_work_two">Home work two</string>
+    <string name="user_image" />
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="phone_number">Phone number</string>
+    <string name="save">Save</string>
 </resources>

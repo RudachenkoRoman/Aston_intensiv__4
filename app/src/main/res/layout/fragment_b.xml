@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/fragmentB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="150dp"
+        android:text="@string/fragment_b"
+        android:textSize="40sp"/>
+
+    <Button
+        android:id="@+id/btnFragmentBtoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="200dp"
+        android:text="@string/open_fragment_c" />
+
+    <Button
+        android:id="@+id/btnFragmentBackBtoA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="150dp"
+        android:text="@string/back" />
+</FrameLayout>

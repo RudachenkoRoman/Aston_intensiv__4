@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/fragmentC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="150dp"
+        android:text="@string/fragment_c"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:id="@+id/textFragmentBtoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="300dp"
+        android:textSize="20sp"
+        tool:text="Hello Fragment B to C" />
+
+    <Button
+        android:id="@+id/btnFragmentCtoD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="200dp"
+        android:text="@string/open_fragment_d" />
+
+    <Button
+        android:id="@+id/btnFragmentBackCtoA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="150dp"
+        android:text="@string/back_to_fragment_a" />
+
+</FrameLayout>
